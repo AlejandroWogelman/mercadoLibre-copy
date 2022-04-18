@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: var(--borders) solid  1px;
+    border-top: 0;
+    padding: 2rem 1rem;
+}
+
+.container h2{
+    font-size: 18px;
+    font-family: proximanova-regular;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+.container p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+small{
+    margin-bottom: 1rem;
+    color: var(--light-gray);
+    font-size: 14px;
+}

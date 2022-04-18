@@ -1,0 +1,35 @@
+.containerBlocks{
+    margin: 1rem 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    column-gap: 5px;
+    width: 100%;
+    align-items: center;
+
+    -ms-grid-columns:repeat(5, 60px);
+}
+.box{
+    width: 50px;
+    height: 8px;
+    background-color: aqua;
+}
+.box:last-child{
+    height: 12px;
+}
+
+.box1{
+    background-color:#fff0f0 ;
+}
+.box2{
+    background-color: #fff5e8;
+}
+.box3{
+    background-color: #fffcda;
+}
+.box4{
+    background-color: #f1fdd7;
+}
+.box5{
+    background-color: #39b54a;
+}

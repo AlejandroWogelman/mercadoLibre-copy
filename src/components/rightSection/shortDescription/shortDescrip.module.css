@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  border: 1px solid var(--borders);
+  border-radius: 8px;
+  padding: 1rem;
+  --darkLight: rgba(90, 84, 84, 0.566);
+}
+
+.container svg {
+  position: relative;
+  top: 3px;
+}
+/* --------------- */
+
+.returnContainer,
+.shippingContainer {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.green {
+  font-size: 1rem;
+  color: var(--green-color);
+  font-family: proximanova-regular;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.box p span:last-child {
+  font-family: proximanova-semibold;
+}
+
+/* ----------------- */
+
+.stockP {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-family: proximanova-semibold;
+}
+
+/* --------- */
+.btnBuy,
+.btnCart {
+  cursor: pointer;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  font-family: proximanova-semibold;
+  transition: background-color 0.3s;
+}
+.btnBuy {
+  background-color: #3483fa;
+  color: white;
+  margin-bottom: 8px;
+}
+.btnBuy:hover {
+  background-color: #185ec7;
+}
+.btnBuy:hover:active {
+  background-color: #114491;
+}
+
+.btnCart {
+  background-color: #3483fa31;
+  color: #3483fa;
+}
+.btnCart:hover {
+  background-color: #3483fa46;
+}
+.btnCart:active {
+  background-color: #3483fa75;
+}
+
+/* ----------------------------- */
+.shieldTrophy {
+  margin-top: 1.5rem;
+  display: flex;
+  color: grey;
+}
+.shieldTrophy svg {
+  color: #444645aa;
+  font-size: 1.2rem;
+  margin-right: 8px;
+}

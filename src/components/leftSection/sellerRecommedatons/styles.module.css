@@ -1,0 +1,9 @@
+.container{
+    border-top: var(--borders) 1px solid;
+    border-bottom: var(--borders) 1px solid;
+    padding-bottom: 2rem;
+}
+
+.link{
+    margin: 1rem;
+}

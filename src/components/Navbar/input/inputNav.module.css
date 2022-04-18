@@ -1,0 +1,21 @@
+.inputContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 0 1rem;
+}
+
+.inputContainer input{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    border:none;
+    padding: 0 15px;
+    outline: none;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.233), 0 1px 1px rgba(22, 22, 22, 0.212);
+   
+}
+.inputContainer input::placeholder{
+    color: rgba(133, 130, 130, 0.582);
+}
+

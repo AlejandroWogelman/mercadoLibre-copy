@@ -1,0 +1,20 @@
+/* Address container */
+.container{
+    display: flex;
+    padding: 3px 5px;
+    cursor: pointer;
+    border-radius:3px ;
+    width: 180px;
+    color: var(--color-navFonts);
+}
+.container:hover{
+   box-shadow:  0 0 2px rgba(0, 0, 0, 0.431);
+}
+
+p {
+    font-size: 14px;
+    font-family: proximanova-regular;
+}
+.container small{
+    color: rgba(0, 0, 0, 0.507);
+}

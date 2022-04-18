@@ -1,0 +1,49 @@
+.header{
+    background-color: var(--color-nav);
+    display: flex;
+    justify-content: center;
+    padding: 8px ;
+    min-width: 1200px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.088);
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 14px;
+    display: -ms-grid;
+}
+
+.box1Container, .box2Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.col{
+display: flex;
+
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgLogo {
+    width: 180px;
+}
+
+.subsContainer{
+    width: 100%;
+    min-height: 38px;
+}
+.subsContainer a {
+    display: flex;
+    justify-content: flex-end;
+}
+.subsContainer img{
+    width: 90%;
+}

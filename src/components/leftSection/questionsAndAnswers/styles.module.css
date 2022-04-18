@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container h3{
+    font-size: 18px;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.li{
+    padding: 0 12px;
+    color: var(--blueSmall-color);
+    font-size: 14px;
+    font-family:proximanova-semibold;
+    background-color:rgba(65,137,230,.15);
+    height: 32px;
+    line-height: 32px;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.li:hover{
+    background-color:rgba(65, 137, 230, 0.209);
+}
+
+.p{
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.form{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.form textarea{
+    margin-right: 8px;
+    width: 100%;
+    padding: .7rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: none;
+    resize: none;
+    outline: 1px var( --borders) solid ;
+    font-family: proximanova-regular;
+    overflow-y: hidden;
+}
+.form textarea::placeholder{
+    color: var(--light-gray);
+}
+.form textarea:focus{
+   outline: var(--blueSmall-color) 2px solid;
+}
+
+.form button{
+    border-radius: 5px;
+    padding: .7rem 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #3483fa;
+    color: white;
+    font-size: 1rem  ;
+    font-family:proximanova-semibold
+}

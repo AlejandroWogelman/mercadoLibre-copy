@@ -1,0 +1,57 @@
+.container{
+display: flex;
+flex-direction: column;
+padding-bottom: 45px;
+border-bottom: 1px solid var(--borders);
+}
+
+.table{
+    margin-top: 1rem;
+    width: 100%;
+    text-align:left ;
+    border-spacing: 0ch;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+.table th{
+    width: 190px;
+    padding: 15px 24px 15px 16px;
+    font-family: proximanova-semibold;
+    font-weight: normal;
+}
+.table td{
+    padding: 16px 16px 16px 24px;
+}
+.light th{
+    background-color:rgb(245,245,245)
+}
+.light td{
+    background-color: rgb(255,255,255)
+}
+
+
+.dark th{
+    background-color: rgb(235,235,235)
+}
+.dark td{
+    background-color: rgb(245,245,245)
+}
+
+
+.others h3{
+    margin: 1.5rem 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+.others div{
+display: flex
+}
+.others div p {
+    width: 50%;
+}
+
+.others span{
+    font-weight: bold;
+}

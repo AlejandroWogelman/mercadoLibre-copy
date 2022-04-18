@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6rem;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+}
+.priceContainer div {
+  display: flex;
+  align-items: center;
+}
+.mLeft {
+  margin-left: 8px;
+}
+.priceCont {
+  font-size: 36px;
+  font-family: proximanova-light;
+}
+.dollar {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 100;
+}

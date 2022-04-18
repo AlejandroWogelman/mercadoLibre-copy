@@ -1,18 +1,18 @@
 import React from "react";
-import {Container, Stack, Box} from "@chakra-ui/react";
 
 import Routes from "./routes";
 
+import { Nav } from "../components/Navbar/Nav";
+import "./index.css";
+import { Footer } from "../components/Footer/Footer";
+
 const App: React.FC = () => {
   return (
-    <Container alignSelf="center" maxWidth="container.xl" paddingX={0}>
-      <Stack>
-        <Box>{`< Navbar />`}</Box>
-        <Box>
-          <Routes />
-        </Box>
-      </Stack>
-    </Container>
+    <>
+      <Nav />
+      <Routes />
+     <Footer/>
+    </>
   );
 };
 

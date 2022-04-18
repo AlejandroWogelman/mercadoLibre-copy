@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  --color-nav: rgb(255, 241, 89);
+  --color-navFonts: #333;
+  --backgroundBody: rgb(237, 237, 237);
+  --borders: rgba(0, 0, 0, 0.182);
+  --green-color: #00a650;
+  --blueSmall-color: rgba(52, 131, 250, 0.868);
+  --light-gray: rgba(0, 0, 0, 0.559);
+
+  min-height: 100vh;
+  font-family: proximanova-light;
+  background-color: var(--backgroundBody);
+  min-width: 1200px;
+  padding-bottom: 1rem;
+}
+div.swiper-slide {
+  padding: 10px 5px;
+}
+
+@font-face {
+  font-family: proximanova-light;
+  src: url("../assets/fonts/proximanova-light.woff2");
+}
+
+@font-face {
+  font-family: proximanova-regular;
+  src: url("../assets/fonts/proximanova-regular.woff2");
+}
+
+@font-face {
+  font-family: proximanova-semibold;
+  src: url("../assets/fonts/proximanova-semibold.woff2");
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.756);
+}

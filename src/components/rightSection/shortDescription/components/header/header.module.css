@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.container span {
+  color: var(--light-gray);
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.header h1 {
+  width: 75%;
+  font-size: 22px;
+}
+.heart {
+  cursor: pointer;
+}
+
+.starsContainer {
+  display: flex;
+  align-items: center;
+}
+.starsContainer svg {
+  cursor: pointer;
+}
+.starsContainer span {
+  margin-left: 8px;
+  cursor: pointer;
+}

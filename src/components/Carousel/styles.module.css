@@ -1,0 +1,13 @@
+.swipperBtn{
+    font-size: 5px;
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 19%);
+}
+.swipperBtn::after{
+    font-size: 22px;
+    color: #3483fa;
+}

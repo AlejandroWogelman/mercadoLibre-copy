@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client"],
+    "types": ["vite/client",  "node" ],
+    "typeRoots": [ "../node_modules/@types" ],
     "allowJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,
@@ -14,7 +15,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
   "include": ["./src"]
 }

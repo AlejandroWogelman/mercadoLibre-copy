@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    border: var(--borders) solid 1px ;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+.container h2{
+    font-size: 18px;
+    font-family: proximanova-regular;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+.container div{
+    margin: .5rem 0
+}
+
+
+.container p{
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+.picture{
+    width: 100%;
+    display: flex;
+}
+
+.img{
+    margin-right: 1.5rem;
+    object-fit: contain;
+}

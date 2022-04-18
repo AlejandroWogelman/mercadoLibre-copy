@@ -1,0 +1,42 @@
+.container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--borders);
+    border-radius: 8px;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+.container h2{
+    margin-top: 1rem ;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.756);
+}
+
+.box1, .box2{
+    display: flex;
+}
+.box1 p:first-child{
+    font-size: 1rem;
+    color: rgb(84, 84, 84);
+}
+.box1 p, .box2 p{
+    color: rgb(159, 158, 158);
+}
+
+.box2{
+    color: #03b95bf3;
+    margin-top: 1rem;
+}
+.box2 p:first-child{
+    color:#03b95bf3;
+    font-size: 1rem;
+    font-family: proximanova-semibold ;
+}
+
+.box1 svg, .box2 svg{
+    font-size: 1.2rem;
+    margin-right: 8px;
+}

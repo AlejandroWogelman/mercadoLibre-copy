@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-column:repeat(3, 1fr); ;   
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+.box p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.722);
+}
+.box strong{
+    font-size:1.4rem;
+    color:rgba(0, 0, 0, 0.81)
+}
+.box div{
+    position: relative;
+}
+.box div svg:first-child{
+    position: relative;
+    top: 3px
+}
+.check{
+    position: absolute;
+    background-color: rgb(41, 169, 9);
+    border-radius: 50%;
+    color: white;
+    right: 32px;
+    top: 15px;
+}
+

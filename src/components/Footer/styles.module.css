@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+.footer img{
+    width: 35px;
+    height: 35px;
+    object-fit:cover;
+    margin:15px;
+    transition: .3s;
+}
+.footer img:hover{
+    transform: rotate(5deg);
+}

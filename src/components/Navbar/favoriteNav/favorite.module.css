@@ -1,0 +1,128 @@
+.ul{
+    
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-bottom: 4px;
+    color: var(--color-navFonts);
+    position: relative;
+    left: 1rem;
+    z-index: 10;
+    font-family: proximanova-regular;
+}
+.ul li{
+    cursor: pointer; 
+}
+
+
+.svg{
+    position: relative;
+    top: 3px
+}
+.userImg{
+    position: relative;
+    top:3px;
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+.userConatin{
+    position: relative;
+    
+}
+
+
+
+/* Card user  HOVER*/
+.cardUser{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left:-100px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.493);
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: default;
+    margin-top: 10px;
+    display: none;
+
+}
+
+
+/* CardHeader */
+.header{
+    width: 304px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 1rem .5rem 0rem 1rem;
+    cursor: default;
+    margin-top: 5px;
+}
+
+.imgDetail{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.detailsUser{
+    color: rgba(98, 98, 98, 0.472);
+    cursor:default
+}
+
+.pDetail{
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-navFonts);
+    position: relative;
+    cursor: pointer;
+    top:-5px;
+    margin-bottom: 8px;
+}
+.detailsUser svg{
+position: relative;
+top: 7.4px;
+left:-5px;
+font-weight: 100;
+}
+
+.detailsUser img{
+    cursor: pointer;
+}
+
+.linksDetailsContainer{
+display: flex;
+flex-direction: column;
+    
+}
+.hr{
+background-color: rgba(0, 0, 0, 0.144);
+display: block;
+height: 1px;
+width: 100%;
+margin: 8px 0;
+}
+
+.linksDetailsContainer a{
+    padding: 5px 0;
+    text-decoration: none;
+    padding-left: 24px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.74);
+}
+.linksDetailsContainer a:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.active{
+    display: flex;
+}

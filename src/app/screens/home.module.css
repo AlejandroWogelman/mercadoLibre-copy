@@ -1,0 +1,36 @@
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  background-color: #fff;
+  padding: 1rem;
+  justify-content: space-between;
+  font-family: proximanova-regular;
+  min-width: 1200px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.332);
+  border-radius: 4px;
+}
+
+.leftSection {
+  width: 66%;
+}
+
+.rightSection {
+  width: 30%;
+  position: relative;
+}
+.paddingLeft {
+  padding-left: 50px;
+}
+
+.paddingLeft h2 {
+  font-size: 24px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.sticky {
+  top: 12px;
+  position: sticky;
+  position: -webkit-sticky;
+}

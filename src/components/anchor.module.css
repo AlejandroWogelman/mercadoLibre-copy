@@ -1,0 +1,6 @@
+.AnchorComp{
+    text-decoration: none;
+    color:var(--blueSmall-color) !important;
+    font-size: 14px;
+    font-family: proximanova-semibold;
+}
