@@ -2,7 +2,7 @@
 
 # Result
 
-<img src="../mercadolibre/src/assets/page.jpeg"/>
+![result](https://i.imgur.com/PrMklgz.jpg)
 
 
 # MercadoLibre challenge
