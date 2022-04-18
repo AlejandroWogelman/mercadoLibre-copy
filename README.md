@@ -1,5 +1,10 @@
 ![MercadoLibre](./src/favicon.svg "MercadoLibre")
 
+# Result
+
+<img src="../mercadolibre/src/assets/page.jpeg"/>
+
+
 # MercadoLibre challenge
 Debemos crear un clon de [la página de detalle de producto](https://articulo.mercadolibre.com.ar/MLA-741093357-peluche-stitch-angel-lilo-1-metro-100cm-reales-gigante-_JM#position=5&search_layout=stack&type=item&tracking_id=839ad6c1-5098-41e7-914b-75a960f45a3b) de Mercado Libre.
 
