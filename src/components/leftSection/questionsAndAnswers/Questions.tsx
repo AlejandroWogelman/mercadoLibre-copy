@@ -40,7 +40,7 @@ export const Questions = () => {
       </ul>
 
       <div>
-        <h3>Peguntale al vendedor</h3>
+        <h3>Preguntale al vendedor</h3>
         <InputQuestion change={changeState} />
       </div>
 

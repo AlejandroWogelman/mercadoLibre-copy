@@ -27,7 +27,7 @@ export const InputQuestion = ({ change }: Prop) => {
         ref={ref}
         rows={1}
         maxLength={2000}
-        placeholder="Escribí tu preginta..."
+        placeholder="Escribí tu pregunta..."
       ></textarea>
       <button type="submit">Preguntar</button>
     </form>
