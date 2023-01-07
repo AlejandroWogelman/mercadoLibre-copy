@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/NEWlOGO.png";
 import disneySub from "../../assets/disneySubs1.png";
 
 import { Address } from "./address/Address";
